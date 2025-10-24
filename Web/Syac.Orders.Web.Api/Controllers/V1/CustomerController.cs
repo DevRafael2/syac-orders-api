@@ -4,6 +4,10 @@ using Syac.Orders.Core.Application.UseCases.Entities.Customers.Queries;
 
 namespace Syac.Orders.Web.Api.Controllers.V1
 {
+    /// <summary>
+    /// Controlador de clientes
+    /// </summary>
+    /// <param name="sender">Sender de mediatR</param>
     [ApiController, Route("api/v1/customer")]
     public class CustomerController(ISender sender) : ControllerBase
     {
