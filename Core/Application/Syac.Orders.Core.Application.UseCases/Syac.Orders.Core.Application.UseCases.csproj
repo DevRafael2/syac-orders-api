@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="13.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\Syac.Orders.Core.Domain.Primitives\Syac.Orders.Core.Domain.Primitives.csproj" />
+    <ProjectReference Include="..\Syac.Orders.Core.Application.Interfaces\Syac.Orders.Core.Application.Interfaces.csproj" />
+    <ProjectReference Include="..\Syac.Orders.Core.Application.Mappers\Syac.Orders.Core.Application.Mappers.csproj" />
+  </ItemGroup>
+
+</Project>

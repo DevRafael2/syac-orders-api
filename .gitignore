@@ -1,0 +1,49 @@
+# User-specific files
+.vs/
+.vscode/
+.idea/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer log files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer files (non-visual studio)
+*.vsix
+
+# Build directories
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]evelopment/
+[Dd]ist/
+[Dd]ist/
+[Dd]istribution/
+[Dd]ebugServer/
+[Dd]ebugTest/
+[Dd]ebugWindows/
+
+# Dotnet
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.app.config
+
+# .NET Core specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET specific
+wwwroot/
