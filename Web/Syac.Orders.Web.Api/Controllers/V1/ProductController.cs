@@ -20,7 +20,7 @@ namespace Syac.Orders.Web.Api.Controllers.V1
         public async Task<IActionResult> GetAsync([FromQuery]GetProductsRequest productParams)
         {
             var result = await sender.Send(productParams);
-            return StatusCode((int)result.StatusResponse, productParams);
+            return StatusCode((int)result.StatusResponse, result);
         }
     }
 }
