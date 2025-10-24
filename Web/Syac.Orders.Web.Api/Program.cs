@@ -24,6 +24,8 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
+app.UseCors(e => e.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod());
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
